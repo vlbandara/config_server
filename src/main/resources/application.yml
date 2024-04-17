@@ -1,0 +1,12 @@
+#spring.application.name=config_server
+#spring.cloud.config.server.git.uri=https://github.com/vlbandara/config_server.git
+#spring.cloud.config.server.default-label=main
+spring:
+  application:
+    name: config_server
+    cloud:
+      config:
+        server:
+          git:
+            uri: https://github.com/vlbandara/config_server.git
+            default-label: main
